@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numeroletra", "Numeroletra\Numeroletra.csproj", "{49438A8F-1B01-499D-A2C6-04F2545D2FBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestConversor", "UnitTestConversor\UnitTestConversor.csproj", "{C85DD911-9502-4E77-9901-3AF517901F5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{49438A8F-1B01-499D-A2C6-04F2545D2FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49438A8F-1B01-499D-A2C6-04F2545D2FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49438A8F-1B01-499D-A2C6-04F2545D2FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85DD911-9502-4E77-9901-3AF517901F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85DD911-9502-4E77-9901-3AF517901F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85DD911-9502-4E77-9901-3AF517901F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85DD911-9502-4E77-9901-3AF517901F5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

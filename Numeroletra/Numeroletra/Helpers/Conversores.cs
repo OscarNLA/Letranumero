@@ -17,13 +17,13 @@ namespace Numeroletra.Helpers
             if (decimales > 0)
             {
                 //dec = " PESOS CON " + decimales.ToString() + "/100";
-                dec = $" PESOS {decimales:0,0} /100";
+                dec = $" ";
             }
             //Código agregado por mí
             else
             {
                 //dec = " PESOS CON " + decimales.ToString() + "/100";
-                dec = $" PESOS {decimales:0,0} /100";
+                dec = $" ";
             }
             var res = NumeroALetras(Convert.ToDouble(entero)) + dec;
             return res;
@@ -50,7 +50,7 @@ namespace Numeroletra.Helpers
             else if (value == 15) num2Text = "QUINCE";
             else if (value < 20) num2Text = "DIECI" + NumeroALetras(value - 10);
             else if (value == 20) num2Text = "VEINTE";
-            else if (value < 30) num2Text = "VEINTI " + NumeroALetras(value - 20);
+            else if (value < 30) num2Text = "VEINTI" + NumeroALetras(value - 20);
             else if (value == 30) num2Text = "TREINTA";
             else if (value == 40) num2Text = "CUARENTA";
             else if (value == 50) num2Text = "CINCUENTA";
