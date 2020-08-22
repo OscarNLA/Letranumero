@@ -50,7 +50,7 @@ namespace Numeroletra.Helpers
             else if (value == 15) num2Text = "QUINCE";
             else if (value < 20) num2Text = "DIECI" + NumeroALetras(value - 10);
             else if (value == 20) num2Text = "VEINTE";
-            else if (value < 30) num2Text = "VEINTI" + NumeroALetras(value - 20);
+            else if (value < 30) num2Text = "VEINTI " + NumeroALetras(value - 20);
             else if (value == 30) num2Text = "TREINTA";
             else if (value == 40) num2Text = "CUARENTA";
             else if (value == 50) num2Text = "CINCUENTA";
