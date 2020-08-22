@@ -12,7 +12,7 @@ namespace UnitTestConversor
             //arrange
             LiteralController literalController = new LiteralController();
             int val = 5;
-            string esperado = "cinco";
+            string esperado = "CINCO";
 
             //act
             string resultado = literalController.Literalget(val);
